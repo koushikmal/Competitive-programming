@@ -13,8 +13,10 @@ int main()
     int row, col;
     while (s <= e)
     {
-        row = mid / 4;
-        col = mid % 4;
+        /*index = C*i + j*/
+
+        row = mid / 4;  //i = x/c
+        col = mid % 4;  //j = x%c
 
         if (arr[row][col] == target)
         {
